@@ -1,70 +1,96 @@
 ---
-name: Marie
-surname: Curie
-position: "Professor"
-address: "School of Physics & Chemistry, École Normale Supérieure"
-phone: +1 22 3333 4444
-www: mariecurie.com
-email: "Marie.Curie@ens.fr"
-twitter: mariecurie
-github: mariecurie
-linkedin: mariecurie
+name: Henry
+surname: Cho
+position: "Analytics Specialist"
+#address: "School of Physics & Chemistry, École Normale Supérieure"
+phone: +1 778 999 6639
+#www: mariecurie.com
+email: "henry.cho@outlook.com"
+#twitter: mariecurie
+#github: mariecurie
+linkedin: linkedin.com/in/henrycho/
 date: "`r format(Sys.time(), '%B %Y')`"
+docname: CV Created in R
 output: vitae::awesomecv
 ---
 
+
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(tidyverse)
 library(vitae)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Some stuff about me
+<!-- # Professional Goal -->
+<!-- GOAL TEXT WOULD GO HERE -->
 
- * I poisoned myself doing research.
- * I was the first woman to win a Nobel prize
- * I was the first person and only woman to win a Nobel prize in two different sciences.
+# Skills
+
+## Leadership
+
+## Data Science
+* Forecasting, machine learning, data wrangling, process automation, Discrete Event Simulation, regression analysis, data quality enhancement, data visualization, classification, text mining
+
+## Applications
+
+* RStudio, SAS EG, Excel, Tableau, PowerBI, JupyterNotebooks, SQL Server, DecisionTools, GIT
+  + item 2
+  + item 3
+
+test  
+> Test block
+> Test block 2
+
+### Other
+* GIT
+
+#### Other 2
+
+
+## Languages
+
+* R, Python, SQL
+
+## Leadership
+
+* Former non-profit board member and president, presenting information to mid-size audience, mentorship of peers, explaining technical material to non-technical audience and management, oversight of interns, change management
 
 # Education
-
-```{r}
-library(tibble)
-tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Informal studies", "1889-91", "Flying University", "Warsaw, Poland",
-  "Master of Physics", "1893", "Sorbonne Université", "Paris, France",
-  "Master of Mathematics", "1894", "Sorbonne Université", "Paris, France"
-) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
-```
-
-# Nobel Prizes
-
 ```{r}
 tribble(
-  ~Year, ~Type, ~Desc,
-  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
-  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
+  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+  "Master of Business Administration", "Simon Fraser University", "BC, Canada", "2021", "Estimated Completion in December 2021",
+  "Bachelor of Business Administration", "British Columbia Institute of Technology", "BC, Canada", "2014", "Minor in Marketing Management & Entrepeneurship"
 ) %>% 
-  brief_entries(
-    glue::glue("Nobel Prize in {Type}"),
-    Year, 
-    Desc
-  )
+  detailed_entries(uni, dates, degree, loc, details)
 ```
 
-# Publications
-
+# Experience
 ```{r}
-library(dplyr)
-scholar::get_publications("EmD_lTEAAAAJ&EmD_lTEAAAAJ&") %>% 
-  filter(cites > 30) %>% 
-  distinct(title, .keep_all = TRUE) %>%
-  transmute(bibtype = "Article", author = as.character(author),
-            title = as.character(title),
-            journaltitle = as.character(journal), year, key = row_number()) %>% 
-  RefManageR::as.BibEntry() %>% 
-  RefManageR::WriteBib("curie.bib")
-
-bibliography_entries("curie.bib")
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Data Scientist (contractor)", "Consumers Energy", "Jackson, MI", "Oct 2018 - Present", "Created new Customer Experience Index (CXi) automated reporting. I brought together transactions and survey responses from our web, call center and field channels from disparate sources and created the data architecture in SQL Server for storing the data. I developed code to calculate CXi across different levels of aggregation, create backups and automatically detect data quality issues.",
+  "Data Scientist (contractor)", "Consumers Energy", "Jackson, MI", "Oct 2018 - Present", "Developing Machine Learning process to classify incoming phone caller intent utilizing Naive Bayes.",
+  "Data Scientist (contractor)", "Consumers Energy", "Jackson, MI", "Oct 2018 - Present", "Utilized various machine learning and statistical techniques to support analytical projects, such as k-modes classification, naive bayes, CART, anomaly detection and feature reduction.",
+  "Data Scientist (contractor)", "Consumers Energy", "Jackson, MI", "Oct 2018 - Present", "Evaluated department's call center forecasting and provided recommended improvements in modeling methodology and benchmarking.",
+  "Data Scientist (contractor)", "Consumers Energy", "Jackson, MI", "Oct 2018 - Present", "Discovered and remediated many data quality issues, teaching the team best practices for ensuring quality and catching errors.",
+  "Sr Operations Business Process Analyst", "Jackson National Life", "Lansing, MI", "Mar 2012 - Sep 2018", "Learned and implemented machine learning and statistical processes, including: anomaly detection, force-directed network visualization, logistic regression, exponential smoothing, unobserved component models, automatic dimension reduction and variable selection, text mining, decision trees and fuzzy matching.",
+  "Sr Operations Business Process Analyst", "Jackson National Life", "Lansing, MI", "Mar 2012 - Sep 2018", "Created automated forecasting system with semi-supervised machine learning umbrella to automate model parameterization. Forecasts are generated using Unobserved Component Modeling implemented with SAS PROC UCM.",
+   "Sr Operations Business Process Analyst", "Jackson National Life", "Lansing, MI", "Mar 2012 - Sep 2018", "Connected to and queried directly from production DB2 databases using SAS SQL.",
+   "Sr Operations Business Process Analyst", "Jackson National Life", "Lansing, MI", "Mar 2012 - Sep 2018", "Used discrete event simulation (R's simmer package) to predict the effect of various staffing strategies on Operations KPIs.",
+    "Intern, Pricing and Promotion Analytics", "Kellogg's", "Battle Creek, MI", "May 2011 - Mar 2012", "Contributed to Kellogg's marketing and sales strategies, including optimal feature price, display partners and expected promotion lift."
+ ) %>% 
+  detailed_entries(role, dates, company, loc, details)
 ```
 
+# Projects
+```{r}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+  "MA, Economics", "Central Michigan University", "Mount Pleasant, MI", "2010 - 2012","Research Assistant for two professors",
+   "MA, Economics", "Central Michigan University", "Mount Pleasant, MI", "2010 - 2012","Taught undergraduate Microeconomics",
+   "MA, Economics", "Central Michigan University", "Mount Pleasant, MI", "2010 - 2012","Master's paper: Fare or Foul: The effects of public transit fare increases on auto fatalities",
+  "BS, Business", "University of North Carolina", "Chapel Hill, NC", "2002 - 2006","Minor: Anthropology"
+) %>% 
+  detailed_entries(degree, dates, uni, loc, details)
+```
