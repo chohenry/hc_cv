@@ -5,7 +5,7 @@ position: "Analytics Specialist"
 #address: "School of Physics & Chemistry, École Normale Supérieure"
 phone: +1 778 999 6639
 #www: mariecurie.com
-email: "henry.cho@outlook.com"
+email: henry.cho@outlook.com
 #twitter: mariecurie
 #github: mariecurie
 linkedin: linkedin.com/in/henrycho/
@@ -21,39 +21,28 @@ library(vitae)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-<!-- # Professional Goal -->
-<!-- GOAL TEXT WOULD GO HERE -->
 
-# Skills
+# Skills  
 
-## Leadership
+## Leadership and Management  
+|          **Leadership:** <font size = "1"> Project Management, Consulting, Mentorship, Team oversight, Presentation </font>  
+
+## Data Science and Analytics  
+|          **Data Science:** Forecasting, Machine Learning, Predictive Modeling, Data Mining, Data Wrangling, Classification  
+|      **Data Analytics:** Data Analysis, Statisical Modeling, Data Visualization, Regression Analysis, Dashboarding  
+|      **Tools:** RStudio, Anaconda, Excel, SAS EG, Tableau, PowerBI, SQL Server, Decision Tools, Git  
+|      **Languages:** R, Python, SQL
+
+<!--
 
 ## Data Science
 * Forecasting, machine learning, data wrangling, process automation, Discrete Event Simulation, regression analysis, data quality enhancement, data visualization, classification, text mining
 
-## Applications
-
-* RStudio, SAS EG, Excel, Tableau, PowerBI, JupyterNotebooks, SQL Server, DecisionTools, GIT
-  + item 2
-  + item 3
-
-test  
-> Test block
-> Test block 2
-
-### Other
-* GIT
-
-#### Other 2
-
-
-## Languages
-
-* R, Python, SQL
-
 ## Leadership
 
 * Former non-profit board member and president, presenting information to mid-size audience, mentorship of peers, explaining technical material to non-technical audience and management, oversight of interns, change management
+
+-->
 
 # Education
 ```{r}
