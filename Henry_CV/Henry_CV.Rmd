@@ -54,32 +54,119 @@ tribble(
   detailed_entries(uni, dates, degree, loc, details)
 ```
 
-# Experience
-```{r}
-tribble(
-  ~ role, ~ company, ~ loc, ~ dates, ~ details,
-  "Data Scientist (contractor)", "Consumers Energy", "Jackson, MI", "Oct 2018 - Present", "Created new Customer Experience Index (CXi) automated reporting. I brought together transactions and survey responses from our web, call center and field channels from disparate sources and created the data architecture in SQL Server for storing the data. I developed code to calculate CXi across different levels of aggregation, create backups and automatically detect data quality issues.",
-  "Data Scientist (contractor)", "Consumers Energy", "Jackson, MI", "Oct 2018 - Present", "Developing Machine Learning process to classify incoming phone caller intent utilizing Naive Bayes.",
-  "Data Scientist (contractor)", "Consumers Energy", "Jackson, MI", "Oct 2018 - Present", "Utilized various machine learning and statistical techniques to support analytical projects, such as k-modes classification, naive bayes, CART, anomaly detection and feature reduction.",
-  "Data Scientist (contractor)", "Consumers Energy", "Jackson, MI", "Oct 2018 - Present", "Evaluated department's call center forecasting and provided recommended improvements in modeling methodology and benchmarking.",
-  "Data Scientist (contractor)", "Consumers Energy", "Jackson, MI", "Oct 2018 - Present", "Discovered and remediated many data quality issues, teaching the team best practices for ensuring quality and catching errors.",
-  "Sr Operations Business Process Analyst", "Jackson National Life", "Lansing, MI", "Mar 2012 - Sep 2018", "Learned and implemented machine learning and statistical processes, including: anomaly detection, force-directed network visualization, logistic regression, exponential smoothing, unobserved component models, automatic dimension reduction and variable selection, text mining, decision trees and fuzzy matching.",
-  "Sr Operations Business Process Analyst", "Jackson National Life", "Lansing, MI", "Mar 2012 - Sep 2018", "Created automated forecasting system with semi-supervised machine learning umbrella to automate model parameterization. Forecasts are generated using Unobserved Component Modeling implemented with SAS PROC UCM.",
-   "Sr Operations Business Process Analyst", "Jackson National Life", "Lansing, MI", "Mar 2012 - Sep 2018", "Connected to and queried directly from production DB2 databases using SAS SQL.",
-   "Sr Operations Business Process Analyst", "Jackson National Life", "Lansing, MI", "Mar 2012 - Sep 2018", "Used discrete event simulation (R's simmer package) to predict the effect of various staffing strategies on Operations KPIs.",
-    "Intern, Pricing and Promotion Analytics", "Kellogg's", "Battle Creek, MI", "May 2011 - Mar 2012", "Contributed to Kellogg's marketing and sales strategies, including optimal feature price, display partners and expected promotion lift."
- ) %>% 
-  detailed_entries(role, dates, company, loc, details)
-```
-
 # Projects
 ```{r}
 tribble(
-  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
-  "MA, Economics", "Central Michigan University", "Mount Pleasant, MI", "2010 - 2012","Research Assistant for two professors",
+  ~ uni, ~proj, ~ loc, ~ dates, ~ details,
+  "Provincial Health Services Authority",
+  "Provincial COVID Monitoring Solution",
+  "", 
+  "March 2020 - April 2020",
+  "Research Assistant for two professors",
+  
    "MA, Economics", "Central Michigan University", "Mount Pleasant, MI", "2010 - 2012","Taught undergraduate Microeconomics",
    "MA, Economics", "Central Michigan University", "Mount Pleasant, MI", "2010 - 2012","Master's paper: Fare or Foul: The effects of public transit fare increases on auto fatalities",
   "BS, Business", "University of North Carolina", "Chapel Hill, NC", "2002 - 2006","Minor: Anthropology"
 ) %>% 
-  detailed_entries(degree, dates, uni, loc, details)
+  detailed_entries(uni, dates, proj, loc, details)
 ```
+
+# Experience
+```{r}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+# PROVINCIAL HEALTH SERVICES AUTHORITY
+   "Senior Analyst", 
+  "Provincial Health Services Authority", 
+  "Vancouver, BC", "Jan 2020 - Present", 
+  "ANALYTICS CONSULTING: Worked with executive management and business leaders acting as an expert advisor providing analytical support such as performance   improvement, modeling, operatonal and business process improvement, data collecting and utilization. Familiar with presentating information to an executive audience and comfortable explaining technical material to a non-technical audience. Provided mentorship to peers and directly oversaw our department's interns. ",
+  
+  "Senior Analyst", 
+  "Provincial Health Services Authority", 
+  "Vancouver, BC", "Jan 2020 - Present", 
+  "PROJECT MANAGEMENT: Successfully delivered multiple high priority and high visibilty projects on time pulling together resources from across the province at different health authorities. In 3 weeks I developed and deployed a COVID tool to directly inform Bonnie Henry's Provincial Repsonse. In 4 weeks I developed a surgical tool at the provincial level to directly support the surgical planning for all the Health Authorities.",
+  
+  "Senior Analyst", 
+  "Provincial Health Services Authority", 
+  "Vancouver, BC", "Jan 2020 - Present", 
+  "ANALYSIS AND REPORTING: Produced comprehensive, timely and high-quality analysis, reports and analysis for use by stakeholders and/or members of the senior leadership team, along with presentation of statistical, clinical and financial data. Incorporated analytical, business and data management assessment skills and methodology to achieve a thorough understanding of the related analytical and business processes and tools.",
+  
+  "Senior Analyst",
+  "Provincial Health Services Authority",
+  "Vancouver, BC", "Jan 2020 - Present",
+  "SUPPORT OPERATIONAL AND DECISION MAKING AND BUSINESS PLANNING: Applied analytical, business and data management skills to achieve a comprehensive multilayered understanding of the business process. Provided application and analysis of appropriate statistical test to information as well as expert assessment of data quality and validation. Using a Monte Carlo simulation, I was able to simUlate the impact on the surgical waitlist given changes in the various inputs relating to the Provincial Surgical Restart Plan.",
+  
+  "Senior Analyst",
+  "Provincial Health Services Authority",
+  "Vancouver, BC", "Jan 2020 - Present",
+  "AUTOMATION AND DASHBOARDING: Automated recurring reports through R and led the team transition to a pull reporting model by developing self serve analystics tools such as dashboards using PowerBi.",
+
+# PROVIDENCE HEALTH
+  "Analyst",
+  "Providence Health",
+  "Vancouver, BC",
+  "Aug 2018 - Jan 2020",
+  "SUPPORT STRATEGIC DECISON MAKING AND BUSINESS PLANNING: Applied analytical, business and data management skills to achieve a comprehensive multilayered understanding of the business process. Provided application and analysis of appropriate statistical test to information as well as expert assessment of data quality and validation. Supported multiple portfolios including Corporate, ED, Medicine, ICU and Rehabilitation in addition to patient flow.  Other portfolios supported in a lesser capacity include Maternity, Substance Use and Mental Health.",
+  
+  "Analyst",
+  "Providence Health",
+  "Vancouver, BC",
+  "Aug 2018 - Jan 2020",
+  "PERFORMANCE IMPROVEMENT AND INNOVATION: Participated in quality improvement and utilization management activities by monitoring process through timely analysis, and the interpretation of information acting on opportunities to improve operational effectiveness and efficiency.  Identified opportunities for improvement in the data and business processes while collaborating with stakeholders to ensure that workable pragmatic solutions are developed.",
+
+  "Analyst",
+  "Providence Health",
+  "Vancouver, BC",
+  "Aug 2018 - Jan 2020",
+  "MENTORING AND LEADERSHIP: Mentored staff and leaders in the development of skills to improve their understanding of the range of analytical matters, processes, reporting and system requirements. Monitored operational capacity of staff and ensured that all service and technical standards are met. Provided technical and business guidance across organization wide projects including the development, implementation, monitoring and evaluation of project plans and deliverables.",
+
+  "Analyst",
+  "Providence Health",
+  "Vancouver, BC",
+  "Aug 2018 - Jan 2020",
+  "ANALYSIS AND REPORTING: Produced comprehensive, timely and high-quality analysis, reports and analysis for use by stakeholders and/or members of the senior leadership team, along with presentation of statistical, clinical and financial data. Incorporated analytical, business and data management assessment skills and methodology to achieve a thorough understanding of the related analytical and business processes and tools.",
+
+"Analyst",
+  "Providence Health",
+  "Vancouver, BC",
+  "Aug 2018 - Jan 2020",
+  "CONSULTING AND COLLABORATING: Liaised with stakeholders in setting short- and long-term objectives and identifying opportunities. Collaborated with other health authorities on various site level and province wide projects with a focus on reporting and performance improvement. Built positive working relationships throughout the organization in order to ensure successful outcomes and mutual beneficial partnerships.",
+
+"Analyst",
+  "Providence Health",
+  "Vancouver, BC",
+  "Aug 2018 - Jan 2020",
+  "EFFECTIVE COMMUNICATION: Produced comprehensive, timely and high-quality analysis, reports and analysis for use by stakeholders and/or members of the senior leadership team, along with presentation of statistical, clinical and financial data. Incorporated analytical, business and data management assessment skills and methodology to achieve a thorough understanding of the related analytical and business processes and tools.",
+  
+
+ ) %>% 
+  detailed_entries(company, dates, role, loc, details)
+```
+
+# Experience
+```{r}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Senior Analyst", "Provincial Health Services Authority", "Vancouver, BC", "Jan 2020 - Present",
+  "Created new Customer Experience Index (CXi) automated reporting. I brought together transactions and survey responses from our web, call center and field channels from disparate sources and created the data architecture in SQL Server for storing the data. I developed code to calculate CXi across different levels of aggregation, create backups and automatically detect data quality issues.",
+  
+  "Senior Analyst", "Provincial Health Services Authority", "Vancouver, BC", "Jan 2020 - Present", "Developing Machine Learning process to classify incoming phone caller intent utilizing Naive Bayes.",
+  
+  "Data Scientist (contractor)", "Consumers Energy", "Jackson, MI", "Oct 2018 - Present", "Utilized various machine learning and statistical techniques to support analytical projects, such as k-modes classification, naive bayes, CART, anomaly detection and feature reduction.",
+  
+  "Data Scientist (contractor)", "Consumers Energy", "Jackson, MI", "Oct 2018 - Present", "Evaluated department's call center forecasting and provided recommended improvements in modeling methodology and benchmarking.",
+  
+  "Data Scientist (contractor)", "Consumers Energy", "Jackson, MI", "Oct 2018 - Present", "Discovered and remediated many data quality issues, teaching the team best practices for ensuring quality and catching errors.",
+  
+  "Sr Operations Business Process Analyst", "Jackson National Life", "Lansing, MI", "Mar 2012 - Sep 2018", "Learned and implemented machine learning and statistical processes, including: anomaly detection, force-directed network visualization, logistic regression, exponential smoothing, unobserved component models, automatic dimension reduction and variable selection, text mining, decision trees and fuzzy matching.",
+  
+  "Sr Operations Business Process Analyst", "Jackson National Life", "Lansing, MI", "Mar 2012 - Sep 2018", "Created automated forecasting system with semi-supervised machine learning umbrella to automate model parameterization. Forecasts are generated using Unobserved Component Modeling implemented with SAS PROC UCM.",
+  
+   "Sr Operations Business Process Analyst", "Jackson National Life", "Lansing, MI", "Mar 2012 - Sep 2018", "Connected to and queried directly from production DB2 databases using SAS SQL.",
+   "Sr Operations Business Process Analyst", "Jackson National Life", "Lansing, MI", "Mar 2012 - Sep 2018", "Used discrete event simulation (R's simmer package) to predict the effect of various staffing strategies on Operations KPIs.",
+    "Intern, Pricing and Promotion Analytics", "Kellogg's", "Battle Creek, MI", "May 2011 - Mar 2012", "Contributed to Kellogg's marketing and sales strategies, including optimal feature price, display partners and expected promotion lift."
+ ) %>% 
+  detailed_entries(company, dates, role, loc, details)
+```
+
+
