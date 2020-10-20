@@ -30,7 +30,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Data Science and Analytics  
 |          **Data Science:** Forecasting, Machine Learning, Predictive Modeling, Data Mining, Data Wrangling, Classification  
 |      **Data Analytics:** Data Analysis, Statisical Modeling, Data Visualization, Regression Analysis, Dashboarding  
-|      **Tools:** RStudio, Anaconda, Excel, SAS EG, Tableau, PowerBI, SQL Server, Decision Tools, Git  
+|      **Tools:** RStudio, Anaconda, Excel, SAS EG, Tableau, PowerBI, SQL Server, Knime, Decision Tools, Git  
 |      **Languages:** R, Python, SQL
 
 <!--
