@@ -196,3 +196,4 @@ tribble(
   detailed_entries(uni, dates, proj, loc, details)
 ```
 
+ 
