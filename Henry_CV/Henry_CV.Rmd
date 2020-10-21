@@ -10,7 +10,7 @@ email: henry.cho@outlook.com
 #github: mariecurie
 linkedin: linkedin.com/in/henrycho/
 date: "`r format(Sys.time(), '%B %Y')`"
-docname: CV Created in R
+docname: Created Using R and R Markdown
 output: vitae::awesomecv
 ---
 
