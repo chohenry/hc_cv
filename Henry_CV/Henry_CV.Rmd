@@ -1,7 +1,7 @@
 ---
 name: Henry
 surname: Cho
-position: "Analytics Specialist"
+position: "Data Analytics Professional"
 #address: "School of Physics & Chemistry, École Normale Supérieure"
 phone: +1 778 999 6639
 #www: mariecurie.com
@@ -25,12 +25,12 @@ knitr::opts_chunk$set(echo = FALSE)
 # Skills  
 
 <!-- ## Leadership and Management  -->
-**Leadership:** Project Management, Consulting, Mentorship, Team oversight, Presentation
+**Leadership:** Project Management, Consulting, Mentorship, Coaching, Team oversight, Presentation
 
 <!-- ## Data Science and Analytics  -->
 **Data Science:** Forecasting, Machine Learning, Predictive Modeling, Data Mining, Data Wrangling, Classification  
 
-**Data Analytics:** Data Analysis, Statisical Modeling, Data Visualization, Regression Analysis, Dashboarding  
+**Data Analytics:** Data Analysis, Statistical Modeling, Data Visualization, Regression Analysis, Dashboarding  
 
 **Tools:** RStudio, Anaconda, Excel, SAS EG, Tableau, PowerBI, SQL Server, Knime, Decision Tools, Git  
 
@@ -65,12 +65,12 @@ tribble(
    "Senior Analyst", 
   "provincial health services authority", 
   "Vancouver, BC", "Jan 2020 - Present", 
-  "ANALYTICS CONSULTING: Worked with executive management and business leaders acting as an expert advisor providing analytical support such as performance   improvement, modeling, operatonal and business process improvement, data collection and utilization. Familiar with presentating information to an executive audience and comfortable explaining technical material to a non-technical audience. Provided mentorship to peers and directly oversaw our department's interns. ",
+  "ANALYTICS CONSULTING: Worked with executive management and business leaders acting as an expert advisor providing analytics to support operational decision making. Familiar with presenting information to an executive audience and comfortable explaining technical material to a non-technical audience. Provided mentorship to peers and directly oversaw our department's interns.",
   
   "Senior Analyst", 
   "provincial health services authority", 
   "Vancouver, BC", "Jan 2020 - Present", 
-  "PROJECT MANAGEMENT: Successfully delivered multiple high priority and high visibilty projects on time pulling together resources from across the province at different health authorities. In 3 weeks I developed and deployed a COVID tool to directly inform Bonnie Henry's Provincial Repsonse. In 4 weeks I developed a surgical tool at the provincial level to directly support the surgical planning for all the Health Authorities.",
+  "PROJECT MANAGEMENT: Successfully delivered multiple high priority and high visibility projects on time pulling together resources from across the province at different health authorities. I developed and deployed a COVID tool to directly inform the Provincial Pandemic response as well as a surgical tool to support surgical planning across the province.",
   
   "Senior Analyst", 
   "provincial health services authority", 
@@ -80,43 +80,43 @@ tribble(
   "Senior Analyst",
   "provincial health services authority",
   "Vancouver, BC", "Jan 2020 - Present",
-  "SUPPORT OPERATIONAL AND DECISION MAKING AND BUSINESS PLANNING: Applied analytical, business and data management skills to achieve a comprehensive multilayered understanding of the business process. Provided application and analysis of appropriate statistical test to information as well as expert assessment of data quality and validation. Using a Monte Carlo simulation, I was able to simUlate the impact on the surgical waitlist given changes in the various inputs relating to the Provincial Surgical Restart Plan.",
+  "SUPPORT OPERATIONAL AND DECISION MAKING AND BUSINESS PLANNING: Applied analytical, business and data management skills to achieve a comprehensive multilayered understanding of the business process. Provided application and analysis of appropriate statistical test to information as well as expert assessment of data quality and validation. Using a Monte Carlo simulation, I was able to simulate the impact on the surgical waitlist given changes in the various inputs relating to the Provincial Surgical Restart Plan.",
   
   "Senior Analyst",
   "provincial health services authority",
   "Vancouver, BC", "Jan 2020 - Present",
-  "AUTOMATION AND DASHBOARDING: Automated recurring reports through R and led the team transition to a pull reporting model by developing self serve analystics tools such as dashboards using PowerBi.",
+  "AUTOMATION AND DASHBOARDING: Automated recurring reports and ETL processes through R and PowerBI and freed up 33% of additional team capacity. Led the team transition to developing a pull reporting model by developing self serve tools such as dashboards.",
 
 # PROVIDENCE HEALTH
   "Analyst",
-  "providence health",
+  "providence health care",
   "Vancouver, BC",
   "Aug 2018 - Jan 2020",
   "SUPPORT STRATEGIC DECISON MAKING AND BUSINESS PLANNING: Applied analytical, business and data management skills to achieve a comprehensive multilayered understanding of the business process. Provided application and analysis of appropriate statistical test to information as well as expert assessment of data quality and validation. Supported multiple portfolios including Corporate, ED, Medicine, ICU and Rehabilitation in addition to patient flow.  Other portfolios supported in a lesser capacity include Maternity, Substance Use and Mental Health.",
   
   "Analyst",
-  "providence health",
+  "providence health care",
   "Vancouver, BC",
   "Aug 2018 - Jan 2020",
   "PERFORMANCE IMPROVEMENT AND INNOVATION: Participated in quality improvement and utilization management activities by monitoring process through timely analysis, and the interpretation of information acting on opportunities to improve operational effectiveness and efficiency.  Identified opportunities for improvement in the data and business processes while collaborating with stakeholders to ensure that workable pragmatic solutions are developed.",
 
   "Analyst",
-  "providence health",
+  "providence health care",
   "Vancouver, BC",
   "Aug 2018 - Jan 2020",
   "MENTORING AND LEADERSHIP: Mentored staff and leaders in the development of skills to improve their understanding of the range of analytical matters, processes, reporting and system requirements. Monitored operational capacity of staff and ensured that all service and technical standards are met. Provided technical and business guidance across organization wide projects including the development, implementation, monitoring and evaluation of project plans and deliverables.",
 
 "Analyst",
-  "providence health",
+  "providence health care",
   "Vancouver, BC",
   "Aug 2018 - Jan 2020",
   "CONSULTING AND COLLABORATING: Liaised with stakeholders in setting short- and long-term objectives and identifying opportunities. Collaborated with other health authorities on various site level and province wide projects with a focus on reporting and performance improvement. Built positive working relationships throughout the organization in order to ensure successful outcomes and mutual beneficial partnerships.",
 
 "Analyst",
-  "providence health",
+  "providence health care",
   "Vancouver, BC",
   "Aug 2018 - Jan 2020",
-  "EFFECTIVE COMMUNICATION: Produced comprehensive, timely and high-quality analysis, reports and analysis for use by stakeholders and/or members of the senior leadership team, along with presentation of statistical, clinical and financial data. Incorporated analytical, business and data management assessment skills and methodology to achieve a thorough understanding of the related analytical and business processes and tools.",
+  "EFFECTIVE COMMUNICATION: Produced comprehensive, timely and high-quality analysis, reports and analysis for use by stakeholders and/or members of the senior leadership team, along with presentation of statistical, clinical, and financial data. Incorporated analytical, business and data management assessment skills and methodology to achieve a thorough understanding of the related analytical and business processes and tools.",
 
 # SHAW COMMUNICATIONS
 "Data Analyst",
@@ -166,25 +166,25 @@ tribble(
   "Provincial COVID Monitoring Solution",
   "", 
   "March 2020 - April 2020",
-  "Led the design, development and delivery of an operational tool which kept track of COVID patients in the health care system at Primary Covid Sites. The tool was designed from the groud with with requiring the development of data capture processes, data feeds, data storage. A few primary features of the tool is that it tracks Covid patients, unit occupancy and ventilator utilizattion. The data from this dashboard directly informs the provincial pandemic response.",
+  "Led the design, development and delivery of an operational tool which kept track of COVID patients in the health care system at Primary Covid Sites. The tool was designed from the ground requiring the development of data capture processes, data feeds, data storage. A few primary features of the tool is that it tracks Covid patients, unit occupancy and ventilator utilization. The data from this dashboard directly informs the provincial pandemic response and was developed from the ground up within a month.",
   
   "provincial health services authority",
   "Provincial Surgical Dashboard",
   "", 
   "August 2020 - Ongoing",
-  "Led the design and development of a Surgical Dashboard to support the strategic surgical planning at the provincial level. The dashboard's primary focus is to improve surgical wait times by identfying problem areas and patterns within each health Authority or Surgical Service.",
+  "Led the design and development of a Surgical Dashboard to support the strategic surgical planning at the provincial level. The dashboard's primary focus is to improve surgical wait times by identifying problem areas and patterns within each Health Autority or Surgical Service.",
   
    "providence health",
   "Emergency Planning ",
   "", 
   "March 2020 - April 2020",
-  "Collaborated on the development a machine learning model to predict a patient's Length of Stay at the point of admission and to support discharge planning and managing patient flow.",
+  "Collaborated on the development a machine learning model to predict a patient's Length of Stay at the point of admission and to support discharge planning and the manegment of patient flow.",
   
   "shaw communications",
   "Call Center Sales Staff Employee Churn Model ",
   "", 
   "Jun 2017 - Mar 2018",
-  "Supported a team of Data Analyst and Data Scientist working to develop proactive churn models. Supported the development of the models by identifying key predictor variables through regression analysis.", 
+  "Supported a team of Data Scientist working to develop proactive churn models. Supported the development of the models by identifying key predictor variables through regression analysis and A/B testing.", 
   
     "shaw communications",
   "Pay for Performance",
