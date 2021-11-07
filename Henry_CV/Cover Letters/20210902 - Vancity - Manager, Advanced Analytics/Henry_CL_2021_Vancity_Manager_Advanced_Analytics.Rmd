@@ -1,0 +1,46 @@
+---
+name: Henry
+surname: Cho
+position: "Manager, Advanced Analytics"
+#address: "School of Physics & Chemistry, École Normale Supérieure"
+phone: +1 778 999 6639
+#www: mariecurie.com
+email: henry.cho@outlook.com
+#twitter: mariecurie
+#github: mariecurie
+linkedin: linkedin.com/in/henrycho/
+date: "`r format(Sys.time(), '%B %Y')`"
+docname:  Coded and rendered in R
+output: vitae::awesomecv
+---
+
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(vitae)
+knitr::opts_chunk$set(echo = FALSE)
+```
+\
+Christine Mayston\
+Vice President, Analytics CoE \
+Vancity Centre \
+183 Terminal Ave \
+Vancouver, BC V6A4G2, CAN\
+\
+\
+**Re: Vancity - Manager, Advanced Analytics** \
+\
+Dear Christine Mayston,\
+\
+I am writing to express my interest in joining the Vancity Analytics team as a Manager. Although my educational background is in business administration, most of my professional working experience has been in analytics and data science. The greatest strength I believe I can bring to your team is the ability to leverage technical capacity to achieve business objectives. My background in business and experience in analytics will be invaluable as it allows bridge the gap between business requirements and technical capability.\
+\
+Although I am new to the financial services industry, I believe that my experience in health care and telecommunications would add significant value to your team. Through my own learning, I have developed a love and appreciation of data science, namely machine learning and automation. This enthusiasm has led me to become proficient in a wide array of data science and business intelligence tools. The result was that I became the SME on many high-profile analytics projects and am spearheading a transition to a more modern data analytics approach in my current organization. If you have been keeping up with the provincial Covid-19 updates, you have probably seen some of my work. From the hospitalization numbers to particular insights, many of my projects directly support the provincial pandemic response from both a public health and operational perspective. Going into wave 4, I designed a model to forecast the volume of test required for sites to have on hand given the flu season and prevalence of the Delta variant. \
+\
+Most recently, I am looking to marry the skills and knowledge I have gained in my MBA program with my experience in analytics. What appealed to me most in the posting is that it sounds like Vancity is looking to further develop their analytical capacity internally. I adored leading my team and organization to transition to a more modern approach. A position at the Analytics CoE would allow me to replicate the most enjoyable components of my experiences overall. \
+\
+I am readily available via email or phone in order to arrange an interview and have uploaded my resume to the portal. Please do not hesitate to contact me if you have any questions. I appreciate your consideration and look forward to hearing from you. \
+\
+\
+Sincerely,\
+\
+Henry Cho
