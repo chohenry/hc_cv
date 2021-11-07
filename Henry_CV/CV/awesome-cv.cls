@@ -142,7 +142,7 @@
 % Awesome colors
 \definecolor{awesome-emerald}{HTML}{00A388}
 \definecolor{awesome-skyblue}{HTML}{0395DE}
-\definecolor{awesome-red}{HTML}{DC3522}
+\definecolor{awesome-red}{HTML}{DC3522} % Change Colour Code to Change Colour
 \definecolor{awesome-pink}{HTML}{EF4089}
 \definecolor{awesome-orange}{HTML}{FF6138}
 \definecolor{awesome-nephritis}{HTML}{27AE60}
@@ -156,7 +156,7 @@
 
 % Awesome section color
 \def\@sectioncolor#1{%
-  \ifbool{acvSectionColorHighlight}{{\color{awesome}#1}}{#1}%
+  \ifbool{acvSectionColorHighlight}{{\color{awesome}#1}}{#1}% Change nuber of letters highlighted in the heading text.
 }
 
 
@@ -208,7 +208,7 @@
 \newcommand*{\entrypositionstyle}[1]{{\fontsize{10pt}{1em}\bodyfont\scshape\color{graytext} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 \newcommand*{\entrylocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
-\newcommand*{\descriptionstyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\upshape\color{text} #1}} % Changes fontsize in description tribbles
+\newcommand*{\descriptionstyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\upshape\color{text} #1}} % Changes fontsize in description tibbles
 
 % For elements of subentry
 \newcommand*{\subentrytitlestyle}[1]{{\fontsize{8pt}{1em}\bodyfont\mdseries\color{graytext} #1}}
