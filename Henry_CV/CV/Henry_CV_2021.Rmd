@@ -225,13 +225,13 @@ tribble(
   "Covid Assessments Dashboard",
   "", 
   "December 2020 - January 2021",
-  "Directed the development and deployment of a dashboard developed in R to monitor Covid testing volumes across various sites. The primary focus of the tool was to identify patterns of congestion from sample collection to results across the various testing locations.",
+  "Directed the development and delployment of a dashboard developed in R to monitor Covid testing volumes across various sites. The primary focus of the tool was to identify patterns of congestion from sample collection to results across the various testing locations.",
   
   "Provincial Health Services Authority",
   "Provincial Surgical Dashboard",
   "", 
   "August 2020 - December 2020",
-  "Led the design and development of a Surgical Dashboard to support the strategic surgical planning at the provincial level. The dashboard's primary focus is to improve surgical wait times by identifying problem areas and patterns within each Health Authority or Surgical Service.",
+  "Led the design and development of a Surgical Dashboard to support the strategic surgical planning at the provincial level. The dashboard's primary focus is to improve surgical wait times by identifying problem areas and patterns within each Health Autority or Surgical Service.",
 
   "Provincial Health Services Authority",
   "Provincial COVID Monitoring Solution",
