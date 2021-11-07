@@ -1,7 +1,7 @@
 ---
 name: Henry
 surname: Cho
-position: "Senior Data Scientist"
+position: "Data Scientist"
 #address: "School of Physics & Chemistry, École Normale Supérieure"
 phone: +1 778 999 6639
 #www: mariecurie.com
@@ -10,7 +10,7 @@ email: henry.cho@outlook.com
 #github: mariecurie
 linkedin: linkedin.com/in/henrycho/
 date: "`r format(Sys.time(), '%B %Y')`"
-docname:  Coded and rendered in R
+docname:  Henry's CV - Lululemon, Data Scientist
 output: vitae::awesomecv
 ---
 
@@ -22,16 +22,16 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 # Summary
-Results orientated business professional with a solid background in health care, leadership, consulting, and analytics. Known for both technical and business acumen and the ability to bridge communication gaps between technical, business, and executive audiences.
+Experienced analyst with a demonstrated history of working in the health care and telecommunications industries. Strong analytical professional with a rich background in business, data science and analytics. Skilled in utilizing analytics to enhance operational efficiencies and identifying opportunities for improvement. 
 
 # Skills  
 
 \setlength{\parindent}{2ex}
 \setlength{\parskip}{0em}
+\textbullet\  Advanced knowledge of data and analytical tools such as *R*, *Python*, *SQL*, *SAS EG*, *Knime*, *PowerBI* and *Tableau* \par
 \textbullet\  Dynamic and pro-active with a sense of urgency for resolution and the ability to execute \par
 \textbullet\  Experience leading projects and others in a cross functional team environment \par
 \textbullet\  Ability to communicate complex insights at all levels of the organization through impactful storytelling \par
-\textbullet\  Advanced knowledge of data and analytical tools such as *R*, *Python*, *SAS EG*, *SQL*, *Knime*, *PowerBI* and *Tableau* \par
 \textbullet\  Solution oriented with a strong sense of ownership with an ability to make decisions and recommendations \par
 \textbullet\  Adept at working with large complex datasets to develop analytical models and insights \par 
 
@@ -43,8 +43,8 @@ Results orientated business professional with a solid background in health care,
 ```{r}
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
-  "Master of Business Administration", "Simon Fraser University", "BC, Canada", "2021", "2021",
-  "Bachelor of Business Administration", "British Columbia Institute of Technology", "BC, Canada", "2014", "Major in Marketing Management and a minor in Entrepeneurship"
+  "Master of Business Administration", "Simon Fraser University", "BC, Canada", "2021", "Estimated Completion December 2021",
+  "Bachelor of Business Administration", "British Columbia Institute of Technology", "BC, Canada", "2014", "Major in Marketing Management and a minor in Entrepreneurship"
 ) %>% 
   detailed_entries(uni, dates, degree, loc, details)
 ```
@@ -62,7 +62,7 @@ tribble(
   "Senior Business Analyst", 
   "Provincial Health Services Authority", 
   "Vancouver, BC", "Jan 2020 - Present", 
-  "Oversaw the development and deployment of business intelligence tools within the department using PowerBI and R and led the transition to a pull reporting model reducing redundant and recurring work by 80 percent increasing both bandwidth and transparency across the entire department.",
+  "Oversaw the development and deployment of business intelligence tools within the department using PowerBI and R (Shiny) and led the transition to a pull reporting model reducing redundant and recurring work by 80 percent increasing both bandwidth and transparency across the entire department.",
 
 "Senior Business Analyst", 
   "Provincial Health Services Authority", 
@@ -206,8 +206,8 @@ tribble(
   "Provincial Health Services Authority",
   "BC Women's OR Slate Scheduling Model",
   "", 
-  "May 2021 - August 2021",
-  "Developed a model to appropriately allocate slate hours based on a variety of inputs such as waitlist size, wait time and surgeon efficiency. The model enables a standardized and transparent approach to slate allocation while providing incentives to surgeons who exhibit desired behaviours.",
+  "April 2021 - October 2021",
+  "Developed a model using a knapsack problem approach to appropriately allocate OR slate hours based on a variety of inputs such as waitlist size, wait time and surgeon efficiency. The model enables a standardized and transparent approach to slate allocation while providing incentives to surgeons who exhibit desired behaviours. Model is currently in the processed of being operationalized and is slated to go live January 2022.",
   
     "Provincial Health Services Authority",
   "Provincial Vaccination Site Mapping Tool",
@@ -219,31 +219,31 @@ tribble(
   "Provincial Employee Vaccinations Dashboard",
   "", 
   "February 2021 - March 2021",
-  "In collaboration with the HR Informatics team, we developed a dashboard in PowerBI to monitor all employee vaccinations across the province. The tool kept track of doses by vaccine type, program completion by phase and even made predictions of how many second doses of each type of vaccine were required for each health authority.",
+  "In collaboration with the HR Informatics team, we developed a dashboard in PowerBI to monitor all employee vaccinations across the province. The tool kept track of doses by vaccine type, program completion by phase and even made predictions of how many second doses of each type of vaccine were required for each health authority. This tool is the source of truth for vaccination statuses for PHSA employees across the province.",
   
   "Provincial Health Services Authority",
-  "Covid Assessments Dashboard",
+  "Covid Lab Assessments Dashboard",
   "", 
   "December 2020 - January 2021",
-  "Directed the development and delployment of a dashboard developed in R to monitor Covid testing volumes across various sites. The primary focus of the tool was to identify patterns of congestion from sample collection to results across the various testing locations.",
+  "Directed the development and deployment of a dashboard developed in R to monitor Covid testing volumes across various sites. The primary focus of the tool was to identify patterns of congestion from sample collection to results across the various testing locations.",
   
   "Provincial Health Services Authority",
   "Provincial Surgical Dashboard",
   "", 
   "August 2020 - December 2020",
-  "Led the design and development of a Surgical Dashboard to support the strategic surgical planning at the provincial level. The dashboard's primary focus is to improve surgical wait times by identifying problem areas and patterns within each Health Autority or Surgical Service.",
+  "Led the design and development of a Surgical Dashboard to support the strategic surgical planning at the provincial level. The dashboard's primary focus is to improve surgical wait times by identifying problem areas and patterns within each Health Authority or Surgical Service.",
 
   "Provincial Health Services Authority",
   "Provincial COVID Monitoring Solution",
   "",  
 "March 2020 - April 2020",
-  "Led the design, development and delivery of an operational tool which kept track of COVID patients in the health care system. The tool was designed from the ground up requiring the development of data capture processes, data feeds, ETLs, and data storage. A few primary features of the tool is that it not only tracks Covid patients, but also unit occupancy and ventilator utilization. The data from this dashboard directly informs the provincial pandemic response and was developed from the ground up within a month. Snippets from this dashboard is often featured in the weekly addresses from the Provincial Health Officer.",
+  "Led the design, development and delivery of an operational tool which kept track of COVID patients in the health care system. The tool was designed from the ground up requiring the development of data capture processes, data feeds, ETLs, and data storage. A few primary features of the tool is that it not only tracks Covid patients, but also primary site unit occupancy and ventilator utilization. The data flows developed for this dashboard directly informs the provincial pandemic response and was developed from the ground up within a month. Snippets from this dashboard is often featured in the weekly addresses from the Provincial Health Officer.",
   
    "Providence Health Care",
   "Emergency Department Load Planning ",
   "", 
   "March 2020 - April 2020",
-  "Supported the development a machine learning model to predict a patient's Length of Stay at the point of admission and to support discharge planning and the management of patient flow.",
+  "Supported the development a random forest model to predict a patient's Length of Stay at the point of admission and to support discharge planning and the management of patient flow.",
   
   "Shaw Communications",
   "Call Center Sales Staff Employee Churn Model ",
